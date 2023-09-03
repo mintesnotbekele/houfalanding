@@ -31,7 +31,7 @@ export default function Home() {
         <title>Houfa Web</title>
         <meta
           name="description"
-          content="Create Next JS Responsive Menu with Tailwind CSS"
+          
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -284,6 +284,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   src={phoneimage}
                   alt="Logo"
                 />  +2519110876555</p></div>
+                   <div className='mx-auto flex justify-space-between'>
+                    <p> <Link href={'/privacy'} className='hover:text-blue-500'>Privacy Policy</Link></p>
+                    <p> <Link href={'/terms'} className='hover:text-blue-500'>Terms & Condition</Link></p>
+                    </div>
                     </div>
                 </div>
                 <div>
