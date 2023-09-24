@@ -21,6 +21,7 @@ import phoneimage from "./assets/phone.png";
 import featuresframe from "./assets/featuresframe1.png"; 
 import featuresframe1 from "./assets/featuresfraame1.png";
 import featuresframe2 from "./assets/featuresframe2.png";
+import Footer from './components/Footer';
 
 export default function Home() {
   const [navbar, setNavbar] = useState(false);
@@ -152,45 +153,45 @@ export default function Home() {
             </div>
       </div>
       </div>
-      <div className='trustedbyHeader mx-auto justify-center flex my-20' >Trusted By</div>
-      <div className='mx-auto justify-center flex my-10'>
+      <div className='sm-24 trustedbyHeader mx-auto justify-center flex my-20' >Trusted By</div>
+      <div className='mx-auto justify-center flex flex-wrap my-10'>
        <Image
-              className="mx-10"
+              className="md:mx-10"
               src={logo1}
                   alt="Logo"  
                 />
          <Image
-              className="mx-10"
+              className="md:mx-10"
               src={logo2}
                   alt="Logo"  
                 />
            <Image
-              className="mx-10"
+              className="md:mx-10"
               src={logo3}
                   alt="Logo"  
                 />
              <Image
-              className="mx-10"
+              className="md:mx-10"
               src={logo4}
                   alt="Logo"  
                 />
        </div>
-       <div className='mx-auto justify-center flex my-10'>
+       <div className='mx-auto justify-center flex flex-wrap my-10'>
        <Image
-              className="mx-10"
+              className="md:mx-10"
               src={logo5}
                   alt="Logo"  
                 />
          <Image
-              className="mx-10"
+              className="md:mx-10"
               src={logo6}
                   alt="Logo"  
                 />
         
        </div>
       <div style={{background: '#F9F1FF', }} className='py-12'>
-       <div className='trustedbyHeader mx-auto justify-center flex my-10' >About us </div>
-       <div className='mx-auto justify-center flex my-20 w-1/3 text-center  '>
+       <div  className='sm-24 trustedbyHeader mx-auto justify-center flex my-10' >About us </div>
+       <div className='sm-24 md-12 mx-auto justify-center flex my-20 md:w-1/3 sm:w-1/4  text-center p-5 '>
        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -198,8 +199,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
        </div>
        <div>
        <div className='trustedbyHeader mx-auto justify-center flex my-20'>Features</div>
-       <div className="columns-2 my-3">
-       <div className='mx-auto justify-end flex p-10'>
+       <div className="md:flex my-3">
+      
+       <div className='flex sm:justify-center md:justify-end md:w-1/2  sm:items-center'>
        <Image
               className="mx-10"
               src={featuresframe}
@@ -207,23 +209,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 />
         
        </div>
-       <div >
-        <div className='reportTitle flex pt-24'>Report Situation</div>
-        <div className='justify-left flex my-1 w-1/2 text-left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+       <div  className='md:w-1/2 p-5'>
+        <div className='sm-24 mx-auto my-10 reportTitle flex pt-24'>Report Situation</div>
+        <div className=' justify-left md:w-3/4 flex my-1 sm-w-1 text-left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
        </div>
         
         </div>
 
-        <div className="columns-2 my-3">
+        <div className="my-3 md:flex">
      
-       <div  className='items-end ml-64 pl-10  ' >
-        
-        <div className='reportTitle flex pt-32' >Report Situation Receive  and Verify notifications</div>
-        <div className='justify-left flex my-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-        
+       <div  className='md:w-1/2 p-5' >
+        <div className='md:flex justify-end'>
+        <div className=' md:w-1/2 align-right mx-auto reportTitle pt-32' >Report Situation Receive  and Verify notifications</div>
+        </div>
+        <div className='md:flex justify-end'>
+        <div className='md:w-3/4 justify-right items-end flex my-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        </div>
        </div>
         
-       <div className='mx-auto justify-start flex p-10'>
+       <div className='sm-24 mx-auto md:w-1/2 justify-start flex p-5'>
        <Image
               className="mx-10"
               src={featuresframe1}
@@ -234,8 +238,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
         </div>
 
-        <div className="columns-2 my-3">
-       <div className='mx-auto justify-end flex'>
+        <div className="my-3 md:flex">
+       <div className='sm-24 mx-auto md:w-1/2 justify-end flex p-5'>
        <Image
               className="mx-10"
               src={featuresframe2}
@@ -243,81 +247,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 />
         
        </div>
-       <div >
-        <div className='reportTitle flex pt-32'>SOS </div>
-        <div className='justify-left flex my-1 w-1/2 text-left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+       <div className='md:w-1/2 p-5' >
+        <div className='reportTitle md:flex pt-32 w-1/2 mx-flex'>SOS </div>
+        <div className='justify-left md:flex my-1 md:w-3/4 text-left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
        </div>
         
         </div>
        
        </div>
 
-
-       <div style={{background: '#F3FAFF'}}>
-              <div className='columns-2'>
-                <div className='mx-auto justify-center flex'>
-                  <div>
-                    <div className='m-10'>  
-                CONTACT US
-                
-                </div>
-                    <div className='m-10'>
-                    <p> <Image
-                    className='mx-10'
-                  style={{display: 'inline'}}
-                  src={loocationimage}
-                  alt="Logo"
-                />  1 Smith St, Lagos Island 102273, Lagos, Nigeria </p>
-                </div>
-                    <div className='m-10'>
-                    <p> <Image
-                    className='mx-10'
-                  style={{display: 'inline'}}
-                  src={mailimage}
-                  alt="Logo"
-                />  Info@Houfa.com</p>
-                </div>
-                    <div className='m-10'>
-                    <p> <Image
-                  style={{display: 'inline'}}
-                  className='mx-10'
-                  src={phoneimage}
-                  alt="Logo"
-                />  +2519110876555</p></div>
-                   <div className='mx-auto flex justify-space-between'>
-                    <p> <Link href={'/privacy'} className='hover:text-blue-500'>Privacy Policy</Link></p>
-                    <p> <Link href={'/terms'} className='hover:text-blue-500'>Terms & Condition</Link></p>
-                    </div>
-                    </div>
-                </div>
-                <div>
-                <div className='m-10'></div>
-                    <div> 
-                    <div className="md:w-2/3 mt-10">
-                          <input className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" style={{visibility: 'hidden'}} id="inline-full-name" type="text" value="Name"/>
-                        </div>
-                    <div className="md:w-2/3 my-10">
-                          <input className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-full-name" type="text" value="Name"/>
-                        </div>
-                        <div className="md:w-2/3 my-10">
-                          <input className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-full-name" type="text" value="Email"/>
-                        </div>
-                        <div className="md:w-2/3 my-10">
-                          <input className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-full-name" type="text" value="Subject"/>
-
-                        </div>
-                        <div className="md:w-2/3 my-10">
-                          <input className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500 "  id="inline-full-name" type="text" value="Message"/>
-                        </div>
-                        <div className="max-auto flex justify-center md:w-2/3 my-10">
-                        <button className="bg-violet-800 text-white font-bold py-2 px-4 rounded-full" style={{background: '773F9F'}}>
-                            Send 
-                          </button>
-                            </div>
-                    </div>
-                </div>
-              </div>
-       </div>
+        <Footer/>
+       
     </div>
   );
 }
