@@ -307,6 +307,38 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
        
        </div>
 
+       <div style={{background:  '#652D8D'}} className='py-24'>
+
+<div  className='mx-auto md:flex justify-center'>
+<div  className='md:w-1/2 p-5'>
+
+
+
+<div style={{color: 'white'}} className='sm-24 trustedbyHeader mx-auto justify-center flex ' >
+              Subscribe for Updates
+</div>
+<div className='m-auto ' style={{color: 'white', textAlign: 'center'}}>Create your Own Metaverse avatar</div>
+<div className="my-10 md:w-1/2 mx-auto">
+                    <input className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-full-name" type="text" value="Username"/>
+                  </div>
+                  <div className="my-10 md:w-1/2 mx-auto">
+                    <input className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-full-name" type="text" value="Email"/>
+                  </div>
+                  <div className="my-10 md:w-1/2 mx-auto">
+                    <input className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-full-name" type="text" value="Country"/>
+                  </div>
+                  <div className="my-10 md:w-1/2 mx-auto">
+                    <input className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-full-name" type="text" value="+234"/>
+                  </div>
+<div className="max-auto flex justify-center  my-10">
+                  <button className="bg-white m-auto font-bold py-2 px-4 rounded-full" style={{background: '773F9F'}}>
+                      Subcribe 
+                    </button>
+                      </div>
+                      </div>
+                  
+ </div>
+</div>
         <Footer/>
         <div className="my-3 md:flex justify-center py-20">
         <div className='px-20'>© copyright Houfa. all rights reserved.</div>
