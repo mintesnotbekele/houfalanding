@@ -7,7 +7,7 @@ import Image from 'next/image';
 import "./assets/css/home.css";
 import googlePlay from "./assets/GooglePlay.png";
 import appStore from "./assets/AppStore.png";
-import warning from "./assets/warining.png";
+import hero from "./assets/hero.png";
 import bannertext from "./assets/bannertext.png";
 import logo1 from "./assets/synverselogo.png";
 import logo2 from "./assets/scaleoutlogo.png";
@@ -24,9 +24,13 @@ import featuresframe2 from "./assets/featuresframe2.png";
 import Footer from './components/Footer';
 
 export default function Home() {
+
+
   const [navbar, setNavbar] = useState(false);
   return (
     <div style={{background: 'white'}}>
+
+      
       <div style={{backgroundImage: 'linear-gradient(to bottom right, #FFFFFF33, #652D8D33)'}}>
       <Head>
         <title>Houfa Web</title>
@@ -41,15 +45,16 @@ export default function Home() {
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
              
-                <h2 className="text-2xl text-white font-bold">
+                <div className="w:1/4 mx-auto text-white font-bold">
                 <Image
                   src={logo}
                   alt="Logo"
+                  
                   width={100}
                   height={24}
                   priority
                 />
-                  </h2>
+                  </div>
               
               <div className="md:hidden">
                 <button
@@ -121,16 +126,37 @@ export default function Home() {
           </div>
         </div>
       </nav>
-      <div className="mx-auto lg:py-40 lg:max-w-7xl md:px-0">
-      <div className="columns-2 ">
-                <div className='w-full'>            
-                  <Image
-                       className='py-8'
-                        src={bannertext}
-                        alt="Logo"
-                    />
-                        <div className='mx-auto md:flex'>
-                        <Image
+      <div className="mx-auto lg:py-20 lg:max-w-7xl md:px-0">
+      <div className="flex justify-center items-center">
+      <Image
+              className='px-4'
+              src={hero}
+                  alt="Logo"  
+                />
+</div>
+  
+      <div className='mx-auto md:flex justify-center py-10'>
+                        
+                <div className="font-extrabold [text-wrap:balance] bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 to-50% to-slate-200"> <span className=" inline-flex flex-col h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.4xl)*theme(lineHeight.tight))] overflow-hidden">
+                <ul className="block animate-text-slide-5 text-left leading-tight [&_li]:block">
+                        <li style={{fontSize: '40px', color: '#773F9F'}}>Be part of the community</li>
+                        <li style={{fontSize: '40px', color: '#773F9F'}}>Be Safe</li>
+                        <li style={{fontSize: '40px', color: '#773F9F'}}>Be Informed</li>
+                        <li style={{fontSize: '40px', color: '#773F9F'}}>Be Involved</li>
+                        <li style={{fontSize: '40px', color: '#773F9F'}}>Be part of the community</li>
+                
+                    </ul>
+                </span></div>
+            
+                       
+                  
+            
+            </div>
+            <div  className='mx-auto md:flex justify-center'>
+                        <p  style={{fontSize: '40px', color: '#773F9F', fontWeight: 'bold'}}>Coming Soon</p>
+                      </div>
+            <div  className='mx-auto md:flex justify-center'>
+                      <Image
                                 className='px-4'
                                 src={googlePlay}
                                 alt="Logo"
@@ -142,16 +168,33 @@ export default function Home() {
                                 alt="Logo"  
                               />
                       </div>
-                  </div>
-              <div className='w-3/4'>
-                  <Image
-              className='px-4'
-              src={warning}
-                  alt="Logo"  
-                />
-                  </div>
-            </div>
+                     
       </div>
+      </div>
+      <div style={{background:  '#652D8D'}} className='py-24'>
+      <div style={{color: 'white'}} className='sm-24 trustedbyHeader mx-auto justify-center flex ' >
+        Keep in touch with us 
+      </div>
+         
+
+            
+            
+                
+
+   
+      <div className='m-auto ' style={{color: 'white', textAlign: 'center'}}>Enter your email</div>
+      <div className="my-10 md:w-1/3 mx-auto">
+                          <input className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-full-name" type="text" value="Username"/>
+                        </div>
+                        <div className="my-10 md:w-1/3 mx-auto">
+                          <input className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-full-name" type="text" value="Email"/>
+                        </div>
+      <div className="max-auto flex justify-center  my-10">
+                        <button className="bg-white m-auto font-bold py-2 px-4 rounded-full" style={{background: '773F9F'}}>
+                            Send 
+                          </button>
+                            </div>
+   
       </div>
       <div className='sm-24 trustedbyHeader mx-auto justify-center flex my-20' >Trusted By</div>
       <div className='mx-auto justify-center flex flex-wrap my-10'>
