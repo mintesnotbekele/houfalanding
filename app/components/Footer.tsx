@@ -15,13 +15,21 @@ const Footer=()=>{
                 CONTACT US
                 
                 </div>
-                    <div className=' m-5 md:m-10 sm:m-5'>
+                {/* <div className='m-5 md:m-10 sm:m-10'>
                     <p> <Image
                     className='mdm:mx-10'
                   style={{display: 'inline'}}
                   src={loocationimage}
                   alt="Logo"
                 />  1 Smith St, Lagos Island 102273, Lagos, Nigeria </p>
+                </div> */}
+                     <div className='m-5 md:m-10 sm:m-10'>
+                    <p> <Image
+                    className='md:mx-10'
+                  style={{display: 'inline'}}
+                  src={loocationimage}
+                  alt="Logo"
+                /> 1 Smith St, Lagos Island 102273, Lagos, Nigeria</p>
                 </div>
                     <div className='m-5 md:m-10 sm:m-10'>
                     <p> <Image
@@ -68,6 +76,7 @@ const Footer=()=>{
                             Send 
                           </button>
                             </div>
+                            
                     </div>
                 </div>
               </div>
