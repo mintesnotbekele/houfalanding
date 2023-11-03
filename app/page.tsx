@@ -135,16 +135,16 @@ export default function Home() {
                 />
 </div>
   
-      <div className='mx-auto md:flex justify-center py-10'>
+      <div className='mx-auto sm:flex md:flex justify-center py-10'>
                         
                 <div className="font-extrabold [text-wrap:balance] bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 to-50% to-slate-200">
                    <span className=" inline-flex flex-col h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.4xl)*theme(lineHeight.tight))] overflow-hidden">
                 <ul className="block animate-text-slide-4 text-left leading-tight [&_li]:block">
-                <li  className='font-[1100]' style={{fontSize: '40px', color: '#773F9F', fontFamily: 'poppins'}}>Be part of the community</li>
-                        <li className='font-[1100]' style={{fontSize: '40px', color: '#773F9F',  fontFamily: 'poppins'}}>Be Safe</li>
-                        <li  className='font-[1100]' style={{fontSize: '40px', color: '#773F9F', fontFamily: 'poppins'}}>Be Informed</li>
-                        <li   className='font-[1100]' style={{fontSize: '40px', color: '#773F9F', fontFamily: 'poppins'}}>Be Involved</li>
-                        <li   className='font-[1100]' style={{fontSize: '40px', color: '#773F9F', fontFamily: 'poppins'}}>Be part of the community</li>       
+                         <li className='font-[1100] sm:text-center' style={{textAlign:'center', fontSize: '40px', color: '#773F9F', fontFamily: 'poppins'}}>Be part of the community</li>
+                        <li className='font-[1100] sm:text-center' style={{textAlign:'center', fontSize: '40px', color: '#773F9F',  fontFamily: 'poppins'}}>Be Safe</li>
+                        <li  className='font-[1100] sm:text-center' style={{textAlign:'center',fontSize: '40px', color: '#773F9F', fontFamily: 'poppins'}}>Be Informed</li>
+                        <li   className='font-[1100] sm:text-center' style={{textAlign:'center',fontSize: '40px', color: '#773F9F', fontFamily: 'poppins'}}>Be Involved</li>
+                        <li   className='font-[1100] sm:text-center' style={{textAlign:'center', fontSize: '40px', color: '#773F9F', fontFamily: 'poppins'}}>Be part of the community</li>       
                     </ul>
                 </span></div>
             
@@ -152,8 +152,8 @@ export default function Home() {
                   
             
             </div>
-            <div  className='mx-auto md:flex justify-center'>
-                        <p  style={{fontSize: '40px', color: '#773F9F', fontWeight: 'bold'}}>Coming Soon</p>
+            <div  className='mx-auto md:flex sm:flex justify-center'>
+                        <p style={{fontSize: '40px', color: '#773F9F', fontWeight: 'bold', textAlign: 'center'}}>Coming Soon</p>
                       </div>
             <div  className='mx-auto md:flex justify-center'>
                       <Image
@@ -340,9 +340,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
  </div>
 </div>
         <Footer/>
-        <div className="my-3 md:flex justify-center py-20">
-        <div className='px-20'>© copyright Houfa. all rights reserved.</div>
-        <div className='px-20 md:flex justify-evenly w-1/2'>
+        <div className="my-3 md:flex   justify-center py-20">
+        <div className='md:px-20 sm:px-10'>© copyright Houfa. all rights reserved.</div>
+        <div className='md:px-20 sm:px-0 hidden md:flex  justify-evenly w-1/2'>
           <p>Home </p>
           <p>About Us </p>
           <p> <Link href={'/privacy'} className='hover:text-blue-500'>Privacy Policy</Link></p>
