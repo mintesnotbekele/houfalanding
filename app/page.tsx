@@ -8,7 +8,7 @@ import "./assets/css/home.css";
 import googlePlay from "./assets/GooglePlay.png";
 import appStore from "./assets/AppStore.png";
 import hero from "./assets/hero.png";
-import bannertext from "./assets/bannertext.png";
+import meta from "./assets/meta.svg";
 import logo1 from "./assets/synverselogo.png";
 import logo2 from "./assets/scaleoutlogo.png";
 import logo3 from "./assets/astrocastlogo.png";
@@ -172,17 +172,16 @@ export default function Home() {
       </div>
       </div>
       <div style={{background:  '#652D8D'}} className='py-24'>
+
+      <div  className='mx-auto md:flex justify-center'>
+      <div  className='md:w-1/2 p-5'>
+
+
+
       <div style={{color: 'white'}} className='sm-24 trustedbyHeader mx-auto justify-center flex ' >
-        Keep in touch with us 
+      Join  Us in Metaverse
       </div>
-         
-
-            
-            
-                
-
-   
-      <div className='m-auto ' style={{color: 'white', textAlign: 'center'}}>Enter your email</div>
+      <div className='m-auto ' style={{color: 'white', textAlign: 'center'}}>Create your Own Metaverse</div>
       <div className="my-10 md:w-1/3 mx-auto">
                           <input className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-full-name" type="text" value="Username"/>
                         </div>
@@ -194,7 +193,16 @@ export default function Home() {
                             Send 
                           </button>
                             </div>
-   
+                            </div>
+                            <div className='sm-24 mx-auto md:w-1/2 justify-start flex p-5'>
+       <Image
+              className="mx-10"
+              src={meta}
+                  alt="Logo"  
+                />
+        
+       </div>
+       </div>
       </div>
       <div className='sm-24 trustedbyHeader mx-auto justify-center flex my-20' >Trusted By</div>
       <div className='mx-auto justify-center flex flex-wrap my-10'>
@@ -300,7 +308,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
        </div>
 
         <Footer/>
-       
+        <div className="my-3 md:flex justify-center py-20">
+        <div className='px-20'>© copyright Houfa. all rights reserved.</div>
+        <div className='px-20 md:flex justify-evenly w-1/2'>
+          <p>Home </p>
+          <p>About Us </p>
+          <p>Feature </p>
+          <p>contact</p></div>
+       </div>
     </div>
   );
 }
