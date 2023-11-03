@@ -313,8 +313,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         <div className='px-20 md:flex justify-evenly w-1/2'>
           <p>Home </p>
           <p>About Us </p>
-          <p>Feature </p>
-          <p>contact</p></div>
+          <p> <Link href={'/privacy'} className='hover:text-blue-500'>Privacy Policy</Link></p>
+                    <p> <Link href={'/terms'} className='hover:text-blue-500'>Terms & Condition</Link></p></div>
        </div>
     </div>
   );

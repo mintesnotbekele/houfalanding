@@ -46,10 +46,7 @@ const Footer=()=>{
                   src={phoneimage}
                   alt="Logo"
                 />  +2519110876555</p></div>
-                   <div className='mx-auto flex justify-space-between mt-10'>
-                    <p> <Link href={'/privacy'} className='hover:text-blue-500'>Privacy Policy</Link></p>
-                    <p> <Link href={'/terms'} className='hover:text-blue-500'>Terms & Condition</Link></p>
-                    </div>
+                  
                     </div>
                 </div>
                 <div>
