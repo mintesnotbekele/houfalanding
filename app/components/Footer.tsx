@@ -7,11 +7,11 @@ import phoneimage from "../assets/phone.png";
 import Image from 'next/image';
 const Footer=()=>{
     return(
-        <div style={{background: '#F3FAFF'}}>
+        <div className='py-20' style={{background: '#F3FAFF'}}>
               <div className='md:columns-2 '>
                 <div className='mx-auto justify-center flex '>
                   <div className='md:px-10'>
-                    <div className='m-10'>  
+                    <div className='m-10' style={{fontSize: '30px', color: '#773F9F'}}>  
                 CONTACT US
                 
                 </div>
