@@ -189,7 +189,7 @@ export default function Home() {
                           <input className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-full-name" type="text" value="Email"/>
                         </div>
       <div className="max-auto flex justify-center  my-10">
-                        <button className="bg-white m-auto font-bold py-2 px-4 rounded-full" style={{background: '773F9F'}}>
+      <button className="bg-white text-violet-800 font-bold py-2 px-10 rounded-full" style={{background: '773F9F'}}>
                             Send 
                           </button>
                             </div>
