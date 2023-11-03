@@ -140,12 +140,11 @@ export default function Home() {
                 <div className="font-extrabold [text-wrap:balance] bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 to-50% to-slate-200">
                    <span className=" inline-flex flex-col h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.4xl)*theme(lineHeight.tight))] overflow-hidden">
                 <ul className="block animate-text-slide-4 text-left leading-tight [&_li]:block">
-                        <li style={{fontSize: '40px', color: '#773F9F'}}>Be part of the community</li>
-                        <li style={{fontSize: '40px', color: '#773F9F'}}>Be Safe</li>
-                        <li style={{fontSize: '40px', color: '#773F9F'}}>Be Informed</li>
-                        <li style={{fontSize: '40px', color: '#773F9F'}}>Be Involved</li>
-                        <li style={{fontSize: '40px', color: '#773F9F'}}>Be part of the community</li>
-                
+                <li  className='font-[1100]' style={{fontSize: '40px', color: '#773F9F', fontFamily: 'poppins'}}>Be part of the community</li>
+                        <li className='font-[1100]' style={{fontSize: '40px', color: '#773F9F',  fontFamily: 'poppins'}}>Be Safe</li>
+                        <li  className='font-[1100]' style={{fontSize: '40px', color: '#773F9F', fontFamily: 'poppins'}}>Be Informed</li>
+                        <li   className='font-[1100]' style={{fontSize: '40px', color: '#773F9F', fontFamily: 'poppins'}}>Be Involved</li>
+                        <li   className='font-[1100]' style={{fontSize: '40px', color: '#773F9F', fontFamily: 'poppins'}}>Be part of the community</li>       
                     </ul>
                 </span></div>
             
